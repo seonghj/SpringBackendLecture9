@@ -1,0 +1,63 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.4.2' // 4.0.2에서 안정 버전으로 수정
+    id 'io.spring.dependency-management' version '1.1.7'
+    id 'org.asciidoctor.jvm.convert' version '4.0.2'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+configurations {
+    asciidoctorExt
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Web & UI
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+    implementation 'org.springframework.boot:spring-boot-starter-hateoas'
+
+    // REST Docs (테스트 시 조각 생성을 위해 필요)
+    testImplementation 'org.springframework.restdocs:spring-restdocs-mockmvc'
+
+    // Asciidoctor 확장 (문서 생성을 위해 필요)
+    asciidoctorExt 'org.springframework.restdocs:spring-restdocs-asciidoctor'
+
+    // Spring Boot Test (이 안에 @AutoConfigureRestDocs가 포함됨)
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+ext {
+    // 문서 조각(snippets)이 저장될 경로 설정
+    snippetsDir = file("build/generated-snippets")
+}
+
+test {
+    outputs.dir snippetsDir
+    useJUnitPlatform()
+}
+
+asciidoctor {
+    inputs.dir snippetsDir
+    configurations 'asciidoctorExt'
+    dependsOn test // 테스트가 성공해야 문서가 생성됨
+}
+
+// 빌드 시 생성된 문서를 static/docs로 복사하고 싶다면 아래 설정 추가 가능
+bootJar {
+    dependsOn asciidoctor
+    from ("${asciidoctor.outputDir}") {
+        into 'static/docs'
+    }
+}

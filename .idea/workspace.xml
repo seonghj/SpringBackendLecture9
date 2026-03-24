@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e336d8e0-a3eb-484e-9a8f-12e906206be8" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/SpringBye/src/main/java/com/example/springbye/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBye/src/main/java/com/example/springbye/controller/ByeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBye/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDataJPA/src/main/java/com/example/springdatajpa/controller/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDataJPA/src/main/java/com/example/springdatajpa/controller/MenuTxController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDataJPA/src/main/java/com/example/springdatajpa/domain/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDataJPA/src/main/java/com/example/springdatajpa/domain/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDataJPA/src/main/java/com/example/springdatajpa/dto/MenuPriceUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDataJPA/src/main/java/com/example/springdatajpa/dto/MenuResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDataJPA/src/main/java/com/example/springdatajpa/exception/MenuCheckedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDataJPA/src/main/java/com/example/springdatajpa/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDataJPA/src/main/java/com/example/springdatajpa/repository/MenuRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDataJPA/src/main/java/com/example/springdatajpa/service/AuditService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDataJPA/src/main/java/com/example/springdatajpa/service/MenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDataJPA/src/main/java/com/example/springdatajpa/service/MenuTxService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDataJPA/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDataJPA/src/main/resources/import.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringHello/src/main/java/com/RESTDocs/RestDocsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringHello/src/main/java/com/RESTDocs/controller/RestDocsMemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringHello/src/main/java/com/RESTDocs/dto/RestDocsMemberResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringHello/src/main/java/com/example/RestfulAPIs/RestFulApiAdvancedApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringHello/src/main/java/com/example/RestfulAPIs/controller/RestFulApiProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringHello/src/main/java/com/example/RestfulAPIs/dto/RestFulApiProductResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringHello/src/main/java/com/example/springhello/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringHello/src/main/java/com/example/springhello/controller/FileSaveController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringHello/src/main/java/com/example/springhello/controller/FileUploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringHello/src/main/java/com/example/springhello/controller/HeaderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringHello/src/main/java/com/example/springhello/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringHello/src/main/java/com/example/springhello/controller/HelloController2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringHello/src/main/java/com/example/springhello/controller/ModelAttributeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringHello/src/main/java/com/example/springhello/controller/PathVariableController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringHello/src/main/java/com/example/springhello/controller/RequestBodyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringHello/src/main/java/com/example/springhello/controller/RequestParamController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringHello/src/main/java/com/example/springhello/controller/ResponseBodyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringHello/src/main/java/com/example/springhello/controller/ResponseEntityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringHello/src/main/java/com/example/springhello/controller/ResponseModelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringHello/src/main/java/com/example/springhello/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringHello/src/main/java/com/example/springhello/controller/ViewResolverController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringHello/src/main/java/com/example/springhello/dto/MemberDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringHello/src/main/java/com/example/springhello/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringHello/src/main/java/com/example/springhello/request/UserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringHello/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringHello/src/main/resources/static/helloWorld.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringHello/src/main/resources/templates/memberDetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringHello/src/main/resources/templates/memberResult.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringHello/src/test/java/com/example/RESTDocs/controller/RestDocsMemberControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringHello/src/test/java/com/example/RESTDocs/dto/RestDocsMemberResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringStableHigh/src/main/java/com/example/springstablehigh/controller/LoggingPracticeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringStableHigh/src/main/java/com/example/springstablehigh/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringStableHigh/src/main/java/com/example/springstablehigh/dto/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringStableHigh/src/main/java/com/example/springstablehigh/exception/DuplicateEmailException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringStableHigh/src/main/java/com/example/springstablehigh/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringStableHigh/src/main/java/com/example/springstablehigh/service/BadLoggingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringStableHigh/src/main/java/com/example/springstablehigh/service/ExceptionLoggingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringStableHigh/src/main/java/com/example/springstablehigh/service/GoodLoggingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringStableHigh/src/main/java/com/example/springstablehigh/service/LoggingPracticeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringStableHigh/src/main/java/com/example/springstablehigh/service/SecurityLoggingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringStableHigh/src/main/java/com/example/springstablehigh/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Head06_Spring/Example01/DIExampleUsingExtends.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Head06_Spring/Example01/DIExampleUsingInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Head06_Spring/Example01/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Head06_Spring/Example01/MenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Head06_Spring/Example01/MenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Head06_Spring/Example01/MenuServiceStub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Head08/Example05/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/SpringBye">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/SpringDataJPA">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/SpringHello">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/SpringStableHigh">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/SpringTDD">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/SpringTDD">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/SpringHello">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SpringTDD" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="HTML File" />
+        <option value="Record" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/corretto-17.0.17/lib/src.zip!/java.base/java/util/function/Predicate.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="HttpClientOnboardingState">{
+  &quot;isOnboardingCommentShown&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="37b9NyjfPv85RG1zZZ0X8h6Cwma" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Gradle.'SpringHello.test'에 있는 테스트.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.CalculatorTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CalculatorTest.add_shouldReturnSum.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CalculatorTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.RestDocsMemberControllerTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RestDocsMemberControllerTest (2).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RestDocsMemberControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head01_JavaProgrammingStart.HelloWorld.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head02_JavaProgrammingStart.ForLoopExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head02_JavaProgrammingStart.HelloWorld.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head02_JavaProgrammingStart.IfExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head02_JavaProgrammingStart.OperatorExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head02_JavaProgrammingStart.PrimitiveExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head02_JavaProgrammingStart.ReferenceExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head02_JavaProgrammingStart.SwitchExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head02_JavaProgrammingStart.TernaryExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head02_JavaProgrammingStart.VariableExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head03_OOP.Example04.ConstructorExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head03_OOP.Example05.EcommerceApp.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head03_OOP.Example06.Topic03ExampletMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head03_OOP.Example07.InheritanceTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head03_OOP.Example08.PolymorphismTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head03_OOP.Example09.PaymentServiceTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head03_OOP.Example10.PaymentProcessorTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head03_OOP.Example12.DIPTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head03_OOP.Example13.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head03_OOP.Example14.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head03_OOP.Example15.LocalClassDemo.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head03_OOP.Example17.LambdaDemo.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head03_OOP.Example18.AnonymousClassDemo.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head03_OOP.Example19.EnumBasicTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head03_OOP.Example20.PlanetEnumTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head03_OOP.Example21.EnumSwitchTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head03_OOP.Example22.PaymentMethodTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head03_OOP.Example23.CompileErrorExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head03_OOP.Example23.RuntimeErrorExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head03_OOP.OOPGradeManager.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head03_OOP.OOPOrderManager.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head03_OOP.ProceduralGradeManager.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head03_OOP.example04.ConstructorExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example01.ArrayVsArrayList.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example02.ArrayListExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example02.HashMapExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example02.HashSetExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example03.StreamBasicExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example04.EntrySetBasicExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example04.FilterExampleLambda2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example04.FilterNumbersExample1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example04.ForEachVsForExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example04.LazyEvaluationExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example04.MapEntryTransfomationExampleLambda.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example04.MapEntryTransformationExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example04.MapNamesExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example04.MapNamesExampleLambda.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example05.ConstructorRefDemo.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example05.InstanceMethodRefDemo.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example05.LambdaPractice.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example05.LambdaSyntaxDemo.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example05.StaticMethodRefDemo.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example06.CollectSquareEvenExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example06.CollectToListExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example06.FlatMapExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example06.JoiningExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example06.ToSetExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example07.AveragingExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example07.DepartmentReportExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example07.GroupingByExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example07.MinAndMaxByExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example07.MultiLevelGrouping.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example07.ReducingExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example07.SummarizingExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.Example07.partitioningExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head04_JCF.StudentManagement.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head05_DSA.Example02.GenericMethodExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head05_DSA.Example02.ShapeExtendExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head05_DSA.Example02.WildCardConsumerExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head05_DSA.Example02.WildCardProducerExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head05_DSA.Example03.BufferedReaderWriterExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head05_DSA.Example03.CsvToListProductExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head05_DSA.Example03.FileReaderWriterExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head05_DSA.Example03.ListToTextFileExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head05_DSA.Example03.MapToTextFileExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head05_DSA.Example03.TextFIleToMapExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head05_DSA.Example03.TextFileToListExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head05_DSA.Example04.ListReadExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head05_DSA.Example04.ListWriteExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head05_DSA.Example04.ObjectReadExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head05_DSA.Example04.ObjectWriteExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head05_DataStructure.Example01.ArrayListExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head05_DataStructure.Example01.DequeExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head05_DataStructure.Example01.HashMapExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head05_DataStructure.Example01.QueueExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head05_DataStructure.Example01.StackExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture [:org.example.Head06_Spring.Example01.DIExampleUsingInterface.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBackendLecture 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringBye 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringDataJPA 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringHello 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringStableHigh 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.소스 다운로드.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.DemoApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.DemoApplication (2).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.DemoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.RestFulApiAdvancedApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SpringDataJpaExampleApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SpringHelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SpringStableHighApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/코드잇 SB/1주차/SpringBackendLecture/SpringDataJPA/src/main/resources&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/코드잇 SB/1주차/SpringBackendLecture/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;애플리케이션.ObjectWriteExample (1).executor&quot;: &quot;Run&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\코드잇 SB\1주차\SpringBackendLecture\SpringDataJPA\src\main\resources" />
+      <recent name="D:\코드잇 SB\1주차\SpringBackendLecture\src\main\java\org\example\Head03_OOP\Example14" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="SpringStableHighApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringStableHighApplication">
+    <configuration name="CalculatorTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/SpringTDD" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.example.springtdd.Head02_JUnitBasic.CalculatorTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CalculatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/SpringTDD" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.example.springtdd.Head02_JUnitBasic.example01.CalculatorTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CalculatorTest.add_shouldReturnSum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/SpringTDD" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.example.springtdd.Head02_JUnitBasic.example01.CalculatorTest.add_shouldReturnSum&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/SpringTDD" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.example.springtdd.Head02_JUnitBasic.example02.UserServiceTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SpringByeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SpringBye.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbye.SpringByeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDataJpaExampleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SpringDataJPA.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springdatajpa.SpringDataJpaExampleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringHelloApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SpringHello.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springhello.SpringHelloApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringStableHighApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SpringStableHigh.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springstablehigh.SpringStableHighApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springstablehigh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringTddApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SpringTDD.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springtdd.SpringTddApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SpringStableHighApplication" />
+        <item itemvalue="Gradle.UserServiceTest" />
+        <item itemvalue="Gradle.CalculatorTest (1)" />
+        <item itemvalue="Gradle.CalculatorTest" />
+        <item itemvalue="Gradle.CalculatorTest.add_shouldReturnSum" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.138" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="e336d8e0-a3eb-484e-9a8f-12e906206be8" name="변경" comment="" />
+      <created>1767160870097</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1767160870097</updated>
+      <workItem from="1769061990805" duration="310000" />
+      <workItem from="1769408546827" duration="2012000" />
+      <workItem from="1769420698525" duration="1100000" />
+      <workItem from="1769473220962" duration="6517000" />
+      <workItem from="1770192149066" duration="3602000" />
+      <workItem from="1770249476565" duration="19061000" />
+      <workItem from="1770422015705" duration="60000" />
+      <workItem from="1770600934458" duration="8570000" />
+      <workItem from="1770681771431" duration="207000" />
+      <workItem from="1771474017118" duration="4173000" />
+      <workItem from="1771977628355" duration="5262000" />
+      <workItem from="1772096463528" duration="2411000" />
+      <workItem from="1772106785411" duration="1168000" />
+      <workItem from="1772150143929" duration="11301000" />
+      <workItem from="1772291961762" duration="49000" />
+      <workItem from="1772499660131" duration="9482000" />
+      <workItem from="1772529802812" duration="721000" />
+      <workItem from="1772588983290" duration="8000" />
+      <workItem from="1773997304815" duration="1638000" />
+      <workItem from="1773998983986" duration="1428000" />
+      <workItem from="1774223628725" duration="647000" />
+      <workItem from="1774224296679" duration="12042000" />
+      <workItem from="1774310403751" duration="3104000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Head03_OOP/Example14/Outer.java</url>
+          <line>3</line>
+          <properties field="instanceValue" class="org.example.Head03_OOP.Example14.Outer" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
